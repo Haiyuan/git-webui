@@ -301,13 +301,11 @@ webui.SideBarView = function(mainView) {
 
     self.mainView = mainView;
     self.element = $(   '<div id="sidebar">' +
-                            '<a href="#" data-toggle="modal" data-target="#help-modal"><img id="sidebar-logo" src="/img/git-logo.png"></a>' +
                             '<div id="sidebar-content">' +
                                 '<section id="sidebar-workspace">' +
                                     '<h4>Workspace</h4>' +
                                 '</section>' +
                                 '<section id="sidebar-remote">' +
-                                    '<h4>Remote access</h4>' +
                                 '</section>' +
                                 '<section id="sidebar-local-branches">' +
                                     '<h4>Local Branches</h4>' +
