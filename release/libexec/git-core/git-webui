@@ -166,7 +166,7 @@ class WebUiRequestHandler(SimpleHTTPRequestHandler):
 
         self.wfile.write(b"HTTP/1.0 200 OK\r\n")
         self.wfile.flush()
-        self.process(['git', 'http-backend'], inputData, False, False, env)
+        #self.process(['git', 'http-backend'], inputData, False, False, env)
 
 
     def is_git_request(self):
